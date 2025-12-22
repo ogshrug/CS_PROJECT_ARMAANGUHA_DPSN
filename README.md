@@ -60,7 +60,6 @@ project/
 └── README.md
 ```
 
-*(Adjust file names and folders as needed to reflect your repository.)*
 
 ---
 
