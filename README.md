@@ -1,6 +1,6 @@
 # Drone Defender
 
-A 2D arcade-style shooter built with Python and Pygame. Pilot your ship, avoid waves of drones, and survive by blasting enemies while dodging incoming projectiles. The game features animated sprites, enemy AI, collision mechanics, scoring, and asset-based visuals and sound.
+A 2D arcade-style shooter built with Python and Pygame. Move forward, avoid waves of drones, and survive by blasting enemies while dodging incoming projectiles. The game features animated sprites, enemy AI, collision mechanics, scoring, and asset-based visuals and sound.
 
 ---
 
@@ -60,7 +60,6 @@ project/
 └── README.md
 ```
 
-*(Adjust file names and folders as needed to reflect your repository.)*
 
 ---
 
