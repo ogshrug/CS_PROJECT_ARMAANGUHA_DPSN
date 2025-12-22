@@ -21,8 +21,10 @@ A 2D arcade-style shooter built with Python and Pygame. Pilot your ship, avoid w
 
 * Python 3.8 or later
 * Pygame
-* Pygame-widgets (if you use UI/text input menus)
-* Any other custom libraries should be listed here
+* Pygame-widgets
+* sys
+* random
+* utils
 
 Example installation:
 
@@ -67,7 +69,7 @@ project/
 This game can be bundled as a `.exe` using PyInstaller. A typical build command:
 
 ```bash
-pyinstaller --onefile --windowed --add-data "assets;assets" --icon=assets/icons/game.ico main.py
+pyinstaller --onefile --add-data '*.png:.' --icon=icon.ico main.py
 ```
 
 This ensures all dependent images and sounds are included and the icon is applied.
@@ -83,24 +85,3 @@ This ensures all dependent images and sounds are included and the icon is applie
 * High-score persistence
 
 ---
-
-## Contributing
-
-Pull requests, issue reports, and feature suggestions are welcome. Ensure code submissions follow structured PEP8-style formatting and modularity.
-
----
-
-## License
-
-Specify your preferred license here (e.g., MIT, Apache-2.0, GPL) or state that the project currently has no explicit license.
-
----
-
-If you want, I can also:
-
-* refine the README with images/screenshots
-* add build badges
-* generate a LICENSE file
-* include a “Developer Notes” or “Changelog” section
-
-Just let me know, and I will expand it.
