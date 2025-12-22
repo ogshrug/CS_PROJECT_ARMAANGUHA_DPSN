@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+.eggs/
+*.egg-info/
+dist/
+build/
+*.so
+.idea/
+.vscode/
+game_output.log
+ponggme.py
