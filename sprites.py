@@ -59,7 +59,7 @@ class Player(pygame.sprite.Sprite):
         self.rect.midbottom = self.pos
 
     def jump(self):
-        # jump only if standing on a platform
+        # jump only if platform
         self.rect.x += 1
         hits = pygame.sprite.spritecollide(self, self.game.platforms, False)
         self.rect.x -= 1
